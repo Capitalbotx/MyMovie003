@@ -48,12 +48,9 @@ async def start(client, message):
             InlineKeyboardButton('Updates Channel', url='https://t.me/+t6R7tKJZiUI1OGJk')
             ],[
             InlineKeyboardButton('Series Channel', url='https://t.me/+yngzpqlpOA84ODZk'),
-            
             InlineKeyboardButton('Erotic Channel', url='https://t.me/+h151ndLh5ZI4NWQ0'),
-           
-            InlineKeyboardButton('Help ⚙', callback_data='help')
-            
-            InlineKeyboardButton('🥰🅾︎🆆︎🅽︎🅴︎🆁︎', callback_data='owner')
+            InlineKeyboardButton('Help ⚙', callback_data='help'),
+            InlineKeyboardButton('🥰🅾︎🆆︎🅽︎🅴︎🆁︎', callback_data='owner'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -99,11 +96,8 @@ async def start(client, message):
             InlineKeyboardButton('Updates Channel', url='https://t.me/+t6R7tKJZiUI1OGJk')
             ],[
             InlineKeyboardButton('Series Channel', url='https://t.me/+yngzpqlpOA84ODZk'),
-             
             InlineKeyboardButton('Erotic Channel', url='https://t.me/+h151ndLh5ZI4NWQ0'),
-           
             InlineKeyboardButton('Help ⚙', callback_data='help'),
-           
             InlineKeyboardButton('🥰🅾︎🆆︎🅽︎🅴︎🆁︎', callback_data='owner')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
