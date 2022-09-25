@@ -671,14 +671,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="CLICK HERE AND JOIN OUR SERIES",url="https://t.me/+yngzpqlpOA84ODZk")]
+            [InlineKeyboardButton(text="JOIN OUR SERIES",url="https://t.me/+yngzpqlpOA84ODZk")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="CLICK HERE AND JOIN OUR SERIES CHANNEL",url="https://t.me/+yngzpqlpOA84ODZk")]
+            [InlineKeyboardButton(text="JOIN OUR SERIES CHANNEL",url="https://t.me/+yngzpqlpOA84ODZk")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
